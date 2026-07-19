@@ -12,6 +12,7 @@ interface Student {
 
 // Mock data - swap this array for data from your database or API later.
 const STUDENTS: Student[] = [
+
   { id: "ABC-2082-BICTE01", name: "Kastup Thakuri", program: "BICTE", year: "2nd Sem"},
   { id: "ABC-2082-BICTE02", name: "Sam Joshi", program: "BICTE", year: "2nd Sem"},
   { id: "ABC-2082-BICTE03", name: "Hom Bahadur", program: "BICTE", year: "2nd Sem"},
@@ -33,8 +34,6 @@ const STUDENTS: Student[] = [
   { id: "ABC-2082-BICTE019", name: "Man Maya Bhatrai", program: "BICTE", year: "2nd Sem"},
   { id: "ABC-2082-BICTE020", name: "Kiran Bhatrai", program: "BICTE", year: "2nd Sem"},
 
-   { id: "ABC-2083-BA01",  name: "Roshan Thapa", program: "BA", year: "1st year" },
-{ id: "ABC-2083-BBS080", name: "Aayush Khatri",   program: "BICTE", year: "6th sem" },
 { id: "ABC-2083-BBS071", name: "Manju Shrestha",  program: "BBS", year: "1st year" },
 { id: "ABC-2079-BBS072", name: "Sabin Thapa",     program: "BBS", year: "4rth year" },
 { id: "ABC-2081-BBS088", name: "Rabin Mahat",     program: "BBS", year: "3rd year" },
@@ -99,11 +98,6 @@ const STUDENTS: Student[] = [
 { id: "ABC-2079-BBS128", name: "Rajni Shahi", program: "BBS", year: "4th year" },
 { id: "ABC-2079-BBS129", name: "Birkha Maharjan", program: "BBS", year: "4th year" },
 { id: "ABC-2079-BBS130", name: "Rupak Pariyar", program: "BBS", year: "4th year" },
-
-
-
-
-
  
   { id: "ABC-2079-BBA001",  name: "Roshni Rana", program: "BBA", year: "8th sem" },
   { id: "ABC-2079-BBA002",  name: "Monika Kumal", program: "BBA", year: "8th sem" },
@@ -258,6 +252,47 @@ const STUDENTS: Student[] = [
   { id: "ABC-2081-BA007",  name: "Anita Thapa", program: "BA", year: "3rd year" },
   { id: "ABC-2081-BA008",  name: "Aarati Sharma", program: "BA", year: "3rd year" },
   { id: "ABC-2081-BA009",  name: "Loma Rai", program: "BA", year: "3rd year" },
+
+  { id: "ABC-2081-BA0010",  name: "Merika Ale", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0011",  name: "Erika Sapkota", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0012",  name: "Binisha Hamal", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0013",  name: "Iccha Shah", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0014",  name: "Samikshya Acharya", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0015",  name: "Sabita Kumal", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0016",  name: "Roman Ale", program: "BA", year: "3rd year" },
+  { id: "ABC-2081-BA0017",  name: "Sabal Karki", program: "BA", year: "3rd year" },
+
+  { id: "ABC-2083-B.edN01",  name: "Anil Thapa", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN02",  name: "Anisha Gurung", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN03",  name: "Anika B.K", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN04",  name: "Binisha Thakrui", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN05",  name: "Barsha Rai", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN06",  name: "Chadani Shrestha", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN07",  name: "Dinesh Shahi", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN08",  name: "Dipak Sunar", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN09",  name: "Dipika Lama", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN010",  name: "Isha Gurung", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN011",  name: "Janaki Ranabhat", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN012",  name: "Nita Parajuli", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN013",  name: "Milan Kandel", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN014",  name: "Prem rai", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2083-B.edN015",  name: "Samita Paudel", program: "B.Ed Nepali", year: "1st year" },
+  { id: "ABC-2082-B.edN01",  name: "Asik Dona", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN02",  name: "Dona Lama", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN03",  name: "Biswah Baniya", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN04",  name: "Bishal Gurung", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN05",  name: "Bharosha Nagarkoti", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN06",  name: "Chadani Sing", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN07",  name: "Dilip Raimajhi", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN08",  name: "Sugam Gauli", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN09",  name: "Gopal Kumari", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN010",  name: "Lil Bhadur Magar", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN011",  name: "Janak Bahadur Rana", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN012",  name: "Nitika Thapa", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN013",  name: "Nitesh Jung Chettri", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN014",  name: "Sudip Paudel", program: "B.Ed Nepali", year: "2nd year" },
+  { id: "ABC-2082-B.edN015",  name: "Samita Paudel", program: "B.Ed Nepali", year: "2nd year" },
+
   { id: "ABC-2081-BA010",  name: "Merika Ale", program: "BA", year: "3rd year" },
   { id: "ABC-2081-BA011",  name: "Erika Sapkota", program: "BA", year: "3rd year" },
   { id: "ABC-2081-BA012",  name: "Binisha Hamal", program: "BA", year: "3rd year" },
