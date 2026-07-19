@@ -34,6 +34,17 @@ const STUDENTS: Student[] = [
   { id: "ABC-2079-050", name: "Hari Bahadur Thapa", program: "BA", year: "4th Year"},
   { id: "ABC-2082-011", name: "Krishna Thapa", program: "BA", year: "4th Year"},
   { id: "ABC-2079-01",  name: "Roshni Rana", program: "BBA", year: "1st sem" },
+  { id: "ABC-2082-001", name: "Kastup Thakuri", program: "BA", year: "2nd Year"},
+  { id: "ABC-2082-002", name: "Sam Joshi", program: "BBS", year: "2nd Year"},
+  { id: "ABC-2082-003", name: "Hom Bahadur", program: "BA", year: "2nd Year"},
+  { id: "ABC-2082-004", name: "Mohit Joshi", program: "B.Ed Math", year: "2nd Year"},
+  { id: "ABC-2082-005", name: "Sam Bahadur", program: "B.Ed Science", year: "2nd Year"},
+  { id: "ABC-2082-006", name: "Biraj Gurung", program: "BBS", year: "2nd Year"},
+  { id: "ABC-2082-007", name: "Sanjok Thapa", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-008", name: "Alex B.K", program: "BBS", year: "2nd Year"},
+  { id: "ABC-2082-009", name: "Krishna Thapa", program: "BA", year: "2nd Year"},
+  { id: "ABC-2082-0010", name: "Kumari Shresta", program: "BA", year: "2nd Year"},
+  { id: "ABC-2082-0012", name: "Krishna Tamange", program: "BBA", year: "2nd Sem"},
 ];
 
 const PROGRAMS = ["All Programs", ...new Set(STUDENTS.map((s) => s.program))];
