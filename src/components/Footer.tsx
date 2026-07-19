@@ -19,7 +19,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2">
             <Image
-              src="/images/logo-mark.png"
+              src="/images/logo.png"
               alt="Aadikavi Bhanubhakta Campus logo"
               width={32}
               height={32}
