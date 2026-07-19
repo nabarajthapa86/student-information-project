@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Search, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface Student {
@@ -451,8 +451,16 @@ const STUDENTS: Student[] = [
   
 ];
 
-const PROGRAMS = ["All Programs", ...new Set(STUDENTS.map((s) => s.program))];
-
+const PROGRAMS = [
+  "All Programs",
+  "BA",
+  "BBA",
+  "BBS",
+  "BICTE",
+  "B.Ed English",
+  "B.Ed Nepali",
+  "B.Ed Science",
+];
 // Max rows shown per page. Change this single number to show more/fewer.
 const PAGE_SIZE = 10;
 
@@ -465,12 +473,9 @@ export default function StudentTable() {
   // page 1. This is done during render (React's documented pattern for
   // "adjusting state when an input changes") instead of in a useEffect,
   // which avoids an extra render pass.
-  const filterKey = `${query}|${program}`;
-  const [prevFilterKey, setPrevFilterKey] = useState(filterKey);
-  if (filterKey !== prevFilterKey) {
-    setPrevFilterKey(filterKey);
-    setPage(1);
-  }
+ useEffect(() => {
+  setPage(1);
+}, [query, program]);
 
   const filtered = useMemo(() => {
     return STUDENTS.filter((s) => {
