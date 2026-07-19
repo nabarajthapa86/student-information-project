@@ -313,6 +313,27 @@ const STUDENTS: Student[] = [
   { id: "ABC-2080-BA010",  name: "Priya Thapa", program: "BA", year: "4th year" },
   { id: "ABC-2080-BA011",  name: "Prasunna Rana", program: "BA", year: "4th year" },
 
+  { id: "ABC-2080-BICTE01", name: "Amaraj Magar", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE02", name: "Anit Adhikari", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE03", name: "Apil Wagle", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE04", name: "Bidheka Shrestha", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE05", name: "Binita Shrestha", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE06", name: "Chandra Kumar Shrestha", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE07", name: "Diwash Ranabhat", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE08", name: "Khusboo Thapa", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE09", name: "Kastup Thapa", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE010", name: "Kiran Lamsal", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE011", name: "Mandira Kumar", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE012", name: "Mohhamad Sajid", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE013", name: "Nabaraj Thapa", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE014", name: "Nisha Giri", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE015", name: "Prerana Thapa", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE016", name: "Prerita Parajuli", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE017", name: "Rabina Kandel", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE018", name: "Rajib Ranabhat", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE019", name: "Sudhan Shrestha", program: "BICTE", year: "6th Sem"},
+  { id: "ABC-2080-BICTE020", name: "Suraj B.K", program: "BICTE", year: "6th Sem"},
+
   
 ];
 
