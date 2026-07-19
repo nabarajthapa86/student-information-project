@@ -12,7 +12,7 @@ export default function Hero() {
     >
       {/* Background photo */}
       <Image
-        src="/images/hero-campus.jpg"
+        src="/images/hero.jpg"
         alt="Aadikavi Bhanubhakta Campus buildings"
         fill
         priority
@@ -41,7 +41,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <Link
             href="/#faculty"
-            className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-blue-950 shadow-sm transition-transform hover:scale-[1.02]"
+            className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-[#0E76BD] shadow-sm transition-transform hover:scale-[1.02]"
           >
             Admissions Open 2024
           </Link>

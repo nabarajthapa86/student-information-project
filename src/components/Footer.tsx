@@ -1,13 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Phone, Mail, Globe, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
+import type { IconType } from "react-icons";
+import {
+  FaFacebookF,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedinIn,
+ 
+} from "react-icons/fa";
 
-const RESOURCE_LINKS = [
-  "Student Portal",
-  "Library",
-  "Academic Calendar",
-  "Research & Publications",
-  "Privacy Policy",
+
+
+// Each entry is one icon in the "Follow Us" row.
+// href: the real destination - replace every "#" below with your actual
+//       Facebook page, YouTube channel, X/Twitter profile, LinkedIn page,
+//       Play Store listing, and App Store listing.
+interface SocialLink {
+  label: string;
+  href: string;
+  Icon: IconType;
+}
+
+const SOCIAL_LINKS: SocialLink[] = [
+  { label: "Facebook", href: "https://facebook.com/Aadikav-Bhanubhakta-Campus", Icon: FaFacebookF },
+  { label: "YouTube", href: "https://youtube.com/@aadikavibhanubhaktacampus2503", Icon: FaYoutube },
+  { label: "Twitter", href: "https://twitter.com/@aadikavicampus", Icon: FaTwitter },
+  { label: "LinkedIn", href: "https://linkedin.com/company/Aadikavi-Bhanubhakta-Campus", Icon: FaLinkedinIn },
 ];
 
 export default function Footer() {
@@ -34,42 +53,31 @@ export default function Footer() {
             integrity since 1987.
           </p>
 
-          <div className="mt-5 flex items-center gap-3">
-            <a
-              href="#"
-              aria-label="Website"
-              className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-800 text-gray-300 transition-colors hover:bg-blue-700 hover:text-white"
-            >
-              <Globe size={16} />
-            </a>
-            <a
-              href="#"
-              aria-label="Social media"
-              className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-800 text-gray-300 transition-colors hover:bg-blue-700 hover:text-white"
-            >
-              <MessageCircle size={16} />
-            </a>
-          </div>
+         
+          
         </div>
 
         {/* Resources column */}
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
-            Resources
+            Follow us
           </h3>
           <ul className="mt-4 space-y-3">
-            {RESOURCE_LINKS.map((item) => (
-              <li key={item}>
-                <a
-                  href="#"
-                  className="text-sm text-gray-400 transition-colors hover:text-white"
-                >
-                  {item}
-                </a>
-              </li>
+             {SOCIAL_LINKS.map(({ label, href, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-800 text-gray-300 transition-colors hover:bg-blue-700 hover:text-white"
+              >
+                <Icon size={16} />
+              </a>
             ))}
           </ul>
         </div>
+        
 
         {/* Contact column */}
         <div>
@@ -78,16 +86,16 @@ export default function Footer() {
           </h3>
           <ul className="mt-4 space-y-3 text-sm text-gray-400">
             <li className="flex items-start gap-3">
-              <MapPin size={18} className="mt-0.5 shrink-0 text-blue-500" />
+              <MapPin size={18} className="mt-0.5 shrink-0 text-[#0E76BD]" />
               <span>Vyas-1, Damauli, Tanahun, Gandaki Province, Nepal</span>
             </li>
             <li className="flex items-center gap-3">
-              <Phone size={18} className="shrink-0 text-blue-500" />
-              <span>+977-065-560XXX</span>
+              <Phone size={18} className="shrink-0 text-[#0E76BD]" />
+              <span>065-590096</span>
             </li>
             <li className="flex items-center gap-3">
-              <Mail size={18} className="shrink-0 text-blue-500" />
-              <span>info@aadikavicampus.edu.np</span>
+              <Mail size={18} className="shrink-0 text-[#0E76BD]" />
+              <span>abcampus@gmail.com</span>
             </li>
           </ul>
         </div>

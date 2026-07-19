@@ -89,13 +89,13 @@ export default function Programs() {
               key={name}
               className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
             >
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 text-blue-700">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 text-[#0E76BD]">
                 <Icon size={20} />
               </div>
               <h3 className="mt-4 text-base font-semibold text-gray-900">
                 {name}
               </h3>
-              <span className="mt-2 inline-block rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-700">
+              <span className="mt-2 inline-block rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-[#0E76BD]">
                 {tag}
               </span>
               <p className="mt-2 text-sm text-gray-500">{detail}</p>

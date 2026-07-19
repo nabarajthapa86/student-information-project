@@ -17,13 +17,13 @@ export default function StudentsPage() {
       <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-blue-700 hover:text-blue-900"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-black hover:text-[#0E76BD]"
         >
           <ArrowLeft size={16} />
           Back to Home
         </Link>
 
-        <h1 className="text-3xl font-bold text-gray-900">Student List</h1>
+        <h1 className="text-3xl font-bold text-[#0E76BD]">Student List</h1>
         <p className="mt-2 max-w-2xl text-gray-600">
           Search or filter enrolled students by name, student ID, or program.
         </p>

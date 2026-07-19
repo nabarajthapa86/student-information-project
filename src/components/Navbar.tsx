@@ -38,7 +38,7 @@ export default function Navbar() {
             priority
           />
           <span className="leading-tight">
-            <span className="block text-sm font-bold text-blue-900 sm:text-base">
+            <span className="block text-sm font-bold text-[#0E76BD] sm:text-base">
               Aadikavi Bhanubhakta
             </span>
             <span className="block text-xs text-gray-500">Campus</span>
@@ -51,7 +51,7 @@ export default function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="text-sm font-medium text-gray-600 transition-colors hover:text-blue-700"
+              className="text-sm font-medium text-gray-600 transition-colors hover:text-[#0E76BD]"
             >
               {link.label}
             </a>
@@ -62,7 +62,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <Link
             href="/students"
-            className="rounded-md bg-blue-700 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-800"
+            className="rounded-md bg-[#0E76BD] px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-500"
           >
             Student List
           </Link>
@@ -96,7 +96,7 @@ export default function Navbar() {
             <Link
               href="/students"
               onClick={() => setIsOpen(false)}
-              className="mt-2 rounded-md bg-blue-700 px-4 py-2 text-center text-sm font-semibold text-white"
+              className="mt-2 rounded-md bg-[#0E76BD] px-4 py-2 text-center text-sm font-semibold text-white"
             >
               Student List
             </Link>

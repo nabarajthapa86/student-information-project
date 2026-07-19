@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="bg-blue-700 py-14">
+    <section className="bg-[#0E76BD] py-14">
       <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-4 sm:px-6 md:flex-row md:items-center lg:px-8">
         <div>
           <h2 className="text-2xl font-bold text-white sm:text-3xl">
@@ -17,7 +17,7 @@ export default function CallToAction() {
         <div className="flex shrink-0 items-center gap-4">
           <Link
             href="/students"
-            className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-blue-800 shadow-sm transition-transform hover:scale-[1.02]"
+            className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-[#0E76BD] shadow-sm transition-transform hover:scale-[1.02]"
           >
             Apply Now
           </Link>
